@@ -4,7 +4,7 @@
  * main - ths is a function to print a line
  *
  * Return: 0 when successfull
- */
+ **/
 
 int main(void)
 {
