@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _islower - print alphabets in lowercase
- * 0c: parameter to be printed
+ * parameter: parameter to be printed
+ * memberc: ascii lowercase characters
  * Return: 1 if lowercase otherwise 0
 */
 int _islower(int c)
