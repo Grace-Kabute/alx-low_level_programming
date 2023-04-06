@@ -2,8 +2,8 @@
 
 /**
 *main - function that prints a string, followed by a new line
-*_puts_recursion - prints out a string
-*@n - pointer to a single character in string
+*_puts_recursion - prints out a string, followed by a new line
+*@*n:  pointer to a single character in string
 *Return: Always 0
 */
 
