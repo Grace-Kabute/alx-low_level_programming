@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_is_prime_number - returns 0 if a non-prime number
+*_wildcmp  - returns 0 if a non-prime number
 *_actual_prime - return 1 if a prime number
 *@s1: input
 *@s2: input
