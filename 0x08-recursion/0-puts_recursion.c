@@ -1,21 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-*main - function that prints a string, followed by a new line
-*_puts_recursion - prints out a string, followed by a new line
-*@*n:  pointer to a single character in string
+*_puts_recursion - function to print string
+*@s:  pointer to a single character in string
 *Return: Always 0
 */
 
-void _puts_recursion(char *n)
+void _puts_recursion(char *s)
 {
-if (*n != '\0')
+if (*s != '\0')
 {
-putchar(*n);
-_puts_recursion(n + 1);
+_putchar(*s);
+_puts_recursion(s + 1);
 }
 else
 {
-putchar('\n');
+_putchar('\n');
 }
 }
