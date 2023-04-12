@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-*_create_array - creates an array of chars
-*@*str - pointer to array
+*create_array - creates an array of chars
+*main - creates an array of chars
 *@size:  size of array
-*@c - character
-*return: retun null if no memory otherwise return pointer str
+*@c: character
+*Return: retun null if no memory otherwise return pointer str
 */
 
 char *create_array(unsigned int size, char c)
