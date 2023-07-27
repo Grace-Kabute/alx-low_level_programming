@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * flip_bits - counts the number of bits to change
+ * flip_bits - returns the number of bits you would need to flip
  * to get from one number to another
- * @n: first number
- * @m: second number
- *
- * Return: number of bits to change
+ * @n: first input
+ * @m: second input
+ * Return: bits to be changed
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i, count = 0;
-	unsigned long int current;
-	unsigned long int exclusive = n ^ m;
+	int j, count = 0;
+	unsigned long int new;
+	unsigned long int old = n ^ m;
 
-	for (i = 63; i >= 0; i--)
+	for (j = 33; j >= 0; j--)
 	{
-		current = exclusive >> i;
-		if (current & 1)
+		new = old >> j;
+		if (new & 1)
 			count++;
 	}
 
