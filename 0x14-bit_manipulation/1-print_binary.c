@@ -7,7 +7,7 @@
  */
 void print_binary(unsigned long int n)
 {
-    unsigned long int input;
+	unsigned long int input;
 	int j, count = 0;
 
 	for (j = 63; j >= 0; j--)
